@@ -1,0 +1,57 @@
+! urxvt
+! -- Fonts -- !
+! -- use the systemwide monospace font
+URxvt.font:xft:Monospace:pixelsize=14
+URxvt.boldfont:xft:Monospace-Bold:pixelsize=14
+
+! -- cursor behaviour -- !
+URxvt.cursorBlink: 1
+
+! -- default distance between letters is too wide
+URxvt.letterSpace: -2
+
+URxvt*.depth: 32
+URxvt*.background: #1B1D1E
+URxvt*.foreground: #F8F8F0
+
+URxvt.scrollBar: false
+
+! -- dzen2 settings
+dzen2.font:xft:Monospace:pixelsize=14
+dzen2.foreground: #F92672
+dzen2.background: #1B1D1E
+
+! molokai color palette 
+! -- black
+*color0:  #1B1D1E
+! -- red
+! -- *color1:  #960050
+*color1: #F92672
+! -- green
+*color2:  #A6E22E
+! -- yellow
+*color3:  #C4BE89
+! -- blue
+*color4:  #465457
+! -- magenta
+*color5:  #AE81FF
+! -- cyan
+*color6:  #FD971F
+! -- white
+*color7:  #F8F8F0
+! -- bright black
+*color8:  #1B1D1E
+! -- bright red
+*color9:  #F92672
+! -- bright green
+*color10: #A6E22E
+! -- bright yellow
+*color11: #E6DB74
+! -- bright blue
+*color12: #66D9EF
+! -- bright magenta
+*color13: #455354
+! -- bright cyan
+*color14: #FD971F
+! -- bright white
+*color15: #F8F8F0
